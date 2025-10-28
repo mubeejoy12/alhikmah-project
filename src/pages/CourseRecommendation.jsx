@@ -3,7 +3,7 @@ import PageLayout from '../components/PageLayout';
 import Card from '../components/Card';
 import Button from '../components/Button';
 import { useClearance } from '../hooks/useClearance';
-import { BookOpen, CheckCircle, Star, Users, Clock, Award } from 'lucide-react';
+import { BookOpen, CheckCircle, Star, Users, Clock } from 'lucide-react';
 
 const CourseRecommendation = () => {
   const { updateRecommendation, setRecommendedCourse } = useClearance();

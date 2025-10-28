@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 
 const ClearanceProgress = () => {
-  const { state, updateUpload, updateVerification, updateEligibility, updateRecommendation } = useClearance();
+  const { state } = useClearance();
 
   const steps = [
     {
@@ -188,7 +188,6 @@ const ClearanceProgress = () => {
           <h3 className="text-xl font-semibold text-gray-900 mb-4">Clearance Steps</h3>
           
           {steps.map((step, index) => {
-            const Icon = step.icon;
             const isCompleted = step.status === 'completed';
             const isInProgress = step.status === 'in-progress';
             const isPending = step.status === 'pending';

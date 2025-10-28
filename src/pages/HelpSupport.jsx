@@ -6,7 +6,6 @@ import {
   Phone, 
   Mail, 
   MessageCircle, 
-  Clock, 
   AlertCircle, 
   CheckCircle,
   Send,

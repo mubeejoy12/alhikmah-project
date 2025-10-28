@@ -10,10 +10,7 @@ import {
   Search, 
   Filter, 
   Download,
-  Eye,
-  Edit,
-  Trash2,
-  MoreVertical
+  Eye
 } from 'lucide-react';
 
 const AdminDashboard = () => {

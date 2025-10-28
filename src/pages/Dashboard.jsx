@@ -1,5 +1,5 @@
 import React from 'react';
-import { useAuth } from '../hooks/useAuth';
+// import { useAuth } from '../hooks/useAuth';
 import Sidebar from '../components/Sidebar';
 import TopBar from '../components/TopBar';
 import StatsCard from '../components/StatsCard';
@@ -9,16 +9,13 @@ import {
   Upload, 
   CheckCircle, 
   Building2, 
-  BookOpen, 
   Laptop, 
-  Database,
-  Briefcase,
-  Mic
+  Database
 } from 'lucide-react';
 import { studentData, clearanceStats, recommendedCourses } from '../data/mockData';
 
 const Dashboard = () => {
-  const { state } = useAuth();
+  // const { state } = useAuth();
 
   return (
     <div className="min-h-screen bg-gray-50 flex">
